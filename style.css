@@ -58,6 +58,7 @@ body {
 
 .header-top .search-icon {
   width: 25px;
+  cursor: pointer;
 }
 
 .header-top input {
@@ -83,10 +84,16 @@ body {
 
 .header-top .notification-icon {
   width: 25px;
+  cursor: pointer;
+}
+
+.header-top .user-icon {
+  cursor: pointer;
 }
 
 .header-top .user-name {
   font-size: 1.1rem;
+  cursor: pointer;
 }
 
 .header-bottom {
@@ -131,6 +138,7 @@ body {
   font-weight: 700;
   color: white;
   background-color: var(--theme);
+  cursor: pointer;
 }
 
 .header-bottom .button-group .btn:hover {
@@ -193,6 +201,10 @@ body {
 
 .sidebar ul li img {
   width: 25px;
+}
+
+.sidebar-item {
+  cursor: pointer;
 }
 
 .sidebar-item:hover {
@@ -278,6 +290,10 @@ body {
   gap: 1.5rem;
 }
 
+.projects .card .actions img {
+  cursor: pointer;
+}
+
 /* Announcements / Trending sections */
 
 .announcements {
@@ -351,6 +367,7 @@ body {
   grid-template-columns: max-content 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 0.3rem;
+  cursor: pointer;
 }
 
 .trending-item .user-icon {
