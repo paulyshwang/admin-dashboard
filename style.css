@@ -7,6 +7,10 @@
   --text: #6b7280; /* Gray 500 */
   --darker-text: #374151; /* Gray 700 */
   --accent: #facc15; /* Yellow 400 */ 
+
+  /* Box shadows from https://getcssscan.com/css-box-shadow-examples */
+  --header-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; /* #6 */
+  --card-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; /* #2 */
 }
 
 * {
@@ -37,6 +41,8 @@ body {
 .header {
   grid-area: header;
   padding: 1rem 3rem;
+  box-shadow: var(--header-shadow);
+  z-index: 1;
 }
 
 .header-top {
@@ -234,6 +240,7 @@ body {
 .main .card {
   border-radius: 10px;
   background-color: white;
+  box-shadow: var(--card-shadow);
 }
 
 .main p {
