@@ -1,8 +1,8 @@
 :root {
   /* Colors from https://tailwindcss.com/docs/customizing-colors */
-  --theme: #172554; /* Blue 950 */
-  --hover: #1e3a8a; /* Blue 900 */
-  --active: #1e40af; /* Blue 800 */
+  --theme: #0f172a; /* Slate 900 */
+  --hover: #1e293b; /* Slate 800 */
+  --active: #334155; /* Slate 700 */
   --background: #e5e7eb; /* Gray 200 */
   --text: #6b7280; /* Gray 500 */
   --darker-text: #374151; /* Gray 700 */
@@ -63,7 +63,8 @@ body {
 }
 
 .header-top .search-icon {
-  width: 25px;
+  width: 30px;
+  margin-top: 0.25rem;
   cursor: pointer;
 }
 
@@ -90,6 +91,7 @@ body {
 
 .header-top .notification-icon {
   width: 25px;
+  margin-right: 0.4rem;
   cursor: pointer;
 }
 
